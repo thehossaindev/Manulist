@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="bg-orange-500 text-white text-center p-6">
+        <h1 class="text-3xl font-bold">My Restaurant</h1>
+        <button id="welcomeBtn" class="bg-white text-orange-500 px-5 py-2 rounded-lg mt-4">Welcome</button>
+    </div>
+
+    <div class="max-w-3xl mx-auto p-5">
+        <h2 class="text-2xl font-bold text-center mb-5">Our Menu</h2>
+        <div id="menu" class="grid md:grid-cols-3 gap-5 text-center"></div>
+        <div class="bg-white p-5 mt-8 rounded-xl shadow">
+            <h2 class="text-2xl font-bold mb-4">Your Bill</h2>
+            <p>Burger:<span id="burgerQuantity">0</span></p>
+            <p>Pizza:<span id="pizzaQuantity">0</span></p>
+            <p>Biryani:<span id="biryaniQuantity">0</span></p>
+            <hr class="my-4">
+            <h2 class="text-xl font-bold">Total:৳<span id="total">0</span></h2>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
